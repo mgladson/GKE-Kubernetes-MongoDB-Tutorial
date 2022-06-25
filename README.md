@@ -129,3 +129,4 @@ Mongo Express server listening at http://0.0.0.0:8081
 ←[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js!←[39m
 ```
 Interact with mongo DB at the following url: http://35.202.178.243:8081/
+![image](https://user-images.githubusercontent.com/99776898/175771188-d09eca1d-2566-4c0e-9901-8bddb7285fbc.png)
