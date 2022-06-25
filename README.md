@@ -32,7 +32,7 @@ kubectl get nodes
 kubectl get pods -n kube-system
 ```
 
-Create mongo-secret.yaml file to store the mongoDB username+password
+Create `mongo-secret.yaml` file to store the mongoDB username+password
 
 ```
 kubectl apply -f "mongo-secret.yaml"
@@ -48,7 +48,7 @@ default-token-9chjn   kubernetes.io/service-account-token   3      27m
 mongodb-secret        Opaque                                2      45s
 ```
 
-Create mongo.yaml file for the deployment and service.
+Create `mongo.yaml` file for the deployment and service.
 
 Get `containerPort` from https://hub.docker.com/_/mongo
 
