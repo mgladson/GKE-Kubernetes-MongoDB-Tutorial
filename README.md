@@ -1,6 +1,7 @@
 # GCP/GKE Kubernetes-MongoDB-Tutorial
 
 [0] Requirements
+
 (0) Google SDK
 ```
 gcloud auth login
