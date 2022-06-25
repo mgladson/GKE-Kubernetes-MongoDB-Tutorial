@@ -97,7 +97,12 @@ NAME                                 READY   STATUS    RESTARTS   AGE   IP      
 mongodb-deployment-8f6675bc5-7nj2v   1/1     Running   0          67m   10.4.0.9   gke-cluster-1-default-pool-419e8f36-1dp5   <none>           <none>
 ```
 
-Create mongo.yaml file for the deployment and service
+Create `mongo-configmap.yaml` file 
+```
+kubectl apply -f "mongo-configmap.yaml"
+```
+
+Create `mongo.yaml` file for the deployment and service
 
 Get `.env` and `containerPort` from https://hub.docker.com/_/mongo-express
 
