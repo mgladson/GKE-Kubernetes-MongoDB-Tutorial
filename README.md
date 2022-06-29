@@ -24,8 +24,9 @@ cluster-1  us-central1-c  1.22.8-gke.202  35.225.229.3  e2-custom-4-8192  1.22.8
 ```
 
 To login to the cluster
+```
 gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project <project_id>
-
+```
 To confirm that you are successfully connected, run the following commands to check the nodes in your cluster, and then view the pods running in the kube-system namespace
 ```
 kubectl get nodes
