@@ -19,7 +19,7 @@ gcloud beta container --project "<project_id>" clusters create "cluster-1" --zon
 ```
 Once the K8S cluster is created, google sdk will return the following
 ```
-NAME       LOCATION       MASTER_VERSION  MASTER_IP     MACHINE_TYPE      NODE_VERSION    NUM_NODES  STATUS
+>NAME       LOCATION       MASTER_VERSION  MASTER_IP     MACHINE_TYPE      NODE_VERSION    NUM_NODES  STATUS
 cluster-1  us-central1-c  1.22.8-gke.202  35.225.229.3  e2-custom-4-8192  1.22.8-gke.202  1          RUNNING
 ```
 
